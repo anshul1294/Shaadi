@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		712D1B0C2C6252D300A30592 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712D1B0B2C6252D300A30592 /* NetworkManager.swift */; };
+		712D1B0E2C6252F100A30592 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712D1B0D2C6252F100A30592 /* CoreDataManager.swift */; };
+		712D1B102C62549F00A30592 /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712D1B0F2C62549F00A30592 /* NetworkMonitor.swift */; };
+		712D1B122C6254EE00A30592 /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712D1B112C6254EE00A30592 /* CardModel.swift */; };
+		712D1B192C626B3300A30592 /* Profile+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712D1B172C626B3300A30592 /* Profile+CoreDataClass.swift */; };
+		712D1B1A2C626B3300A30592 /* Profile+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712D1B182C626B3300A30592 /* Profile+CoreDataProperties.swift */; };
+		71A857E82C5E84E30029C61D /* Shaadi_AssignmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A857E72C5E84E30029C61D /* Shaadi_AssignmentApp.swift */; };
+		71A857EA2C5E84E30029C61D /* MyProfileListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A857E92C5E84E30029C61D /* MyProfileListView.swift */; };
+		71A857EC2C5E84E40029C61D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71A857EB2C5E84E40029C61D /* Assets.xcassets */; };
+		71A857EF2C5E84E40029C61D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71A857EE2C5E84E40029C61D /* Preview Assets.xcassets */; };
+		71A857F42C5E84E40029C61D /* Shaadi_Assignment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 71A857F22C5E84E40029C61D /* Shaadi_Assignment.xcdatamodeld */; };
+		71A857FB2C5E85880029C61D /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A857FA2C5E85880029C61D /* CardView.swift */; };
+		71A857FE2C5E86A60029C61D /* ShaadiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A857FD2C5E86A60029C61D /* ShaadiModel.swift */; };
+		71A858002C5E980E0029C61D /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A857FF2C5E980E0029C61D /* ImageLoader.swift */; };
+		71A858022C5E98A00029C61D /* AsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A858012C5E98A00029C61D /* AsyncImage.swift */; };
+		71A858042C5FB7610029C61D /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A858032C5FB7610029C61D /* ProfileViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		712D1B0B2C6252D300A30592 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		712D1B0D2C6252F100A30592 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		712D1B0F2C62549F00A30592 /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
+		712D1B112C6254EE00A30592 /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		712D1B172C626B3300A30592 /* Profile+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Profile+CoreDataClass.swift"; sourceTree = "<group>"; };
+		712D1B182C626B3300A30592 /* Profile+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Profile+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		71A857E42C5E84E30029C61D /* Shaadi Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shaadi Assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71A857E72C5E84E30029C61D /* Shaadi_AssignmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shaadi_AssignmentApp.swift; sourceTree = "<group>"; };
+		71A857E92C5E84E30029C61D /* MyProfileListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileListView.swift; sourceTree = "<group>"; };
+		71A857EB2C5E84E40029C61D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71A857EE2C5E84E40029C61D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		71A857F32C5E84E40029C61D /* Shaadi_Assignment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shaadi_Assignment.xcdatamodel; sourceTree = "<group>"; };
+		71A857FA2C5E85880029C61D /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		71A857FD2C5E86A60029C61D /* ShaadiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShaadiModel.swift; sourceTree = "<group>"; };
+		71A857FF2C5E980E0029C61D /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		71A858012C5E98A00029C61D /* AsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImage.swift; sourceTree = "<group>"; };
+		71A858032C5FB7610029C61D /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71A857E12C5E84E30029C61D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71A7F9CF2C6287EB00422817 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				71A858032C5FB7610029C61D /* ProfileViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		71A7F9D02C62880500422817 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				71A858012C5E98A00029C61D /* AsyncImage.swift */,
+				71A857FA2C5E85880029C61D /* CardView.swift */,
+				71A857E92C5E84E30029C61D /* MyProfileListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		71A7F9D12C62882500422817 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				71A857FF2C5E980E0029C61D /* ImageLoader.swift */,
+				712D1B0F2C62549F00A30592 /* NetworkMonitor.swift */,
+				712D1B0B2C6252D300A30592 /* NetworkManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		71A7F9D22C62884600422817 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				712D1B172C626B3300A30592 /* Profile+CoreDataClass.swift */,
+				712D1B182C626B3300A30592 /* Profile+CoreDataProperties.swift */,
+				712D1B0D2C6252F100A30592 /* CoreDataManager.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		71A857DB2C5E84E30029C61D = {
+			isa = PBXGroup;
+			children = (
+				71A857E62C5E84E30029C61D /* Shaadi Assignment */,
+				71A857E52C5E84E30029C61D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71A857E52C5E84E30029C61D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71A857E42C5E84E30029C61D /* Shaadi Assignment.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71A857E62C5E84E30029C61D /* Shaadi Assignment */ = {
+			isa = PBXGroup;
+			children = (
+				71A7F9D22C62884600422817 /* CoreData */,
+				71A7F9D12C62882500422817 /* Network */,
+				71A7F9D02C62880500422817 /* View */,
+				71A857FC2C5E868A0029C61D /* Model */,
+				71A7F9CF2C6287EB00422817 /* ViewModel */,
+				71A857E72C5E84E30029C61D /* Shaadi_AssignmentApp.swift */,
+				71A857EB2C5E84E40029C61D /* Assets.xcassets */,
+				71A857F22C5E84E40029C61D /* Shaadi_Assignment.xcdatamodeld */,
+				71A857ED2C5E84E40029C61D /* Preview Content */,
+			);
+			path = "Shaadi Assignment";
+			sourceTree = "<group>";
+		};
+		71A857ED2C5E84E40029C61D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				71A857EE2C5E84E40029C61D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		71A857FC2C5E868A0029C61D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				71A857FD2C5E86A60029C61D /* ShaadiModel.swift */,
+				712D1B112C6254EE00A30592 /* CardModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71A857E32C5E84E30029C61D /* Shaadi Assignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71A857F72C5E84E40029C61D /* Build configuration list for PBXNativeTarget "Shaadi Assignment" */;
+			buildPhases = (
+				71A857E02C5E84E30029C61D /* Sources */,
+				71A857E12C5E84E30029C61D /* Frameworks */,
+				71A857E22C5E84E30029C61D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Shaadi Assignment";
+			productName = "Shaadi Assignment";
+			productReference = 71A857E42C5E84E30029C61D /* Shaadi Assignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71A857DC2C5E84E30029C61D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					71A857E32C5E84E30029C61D = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 71A857DF2C5E84E30029C61D /* Build configuration list for PBXProject "Shaadi Assignment" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71A857DB2C5E84E30029C61D;
+			productRefGroup = 71A857E52C5E84E30029C61D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71A857E32C5E84E30029C61D /* Shaadi Assignment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71A857E22C5E84E30029C61D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71A857EF2C5E84E40029C61D /* Preview Assets.xcassets in Resources */,
+				71A857EC2C5E84E40029C61D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71A857E02C5E84E30029C61D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71A857F42C5E84E40029C61D /* Shaadi_Assignment.xcdatamodeld in Sources */,
+				712D1B102C62549F00A30592 /* NetworkMonitor.swift in Sources */,
+				712D1B0C2C6252D300A30592 /* NetworkManager.swift in Sources */,
+				71A858042C5FB7610029C61D /* ProfileViewModel.swift in Sources */,
+				712D1B122C6254EE00A30592 /* CardModel.swift in Sources */,
+				71A857EA2C5E84E30029C61D /* MyProfileListView.swift in Sources */,
+				71A857FE2C5E86A60029C61D /* ShaadiModel.swift in Sources */,
+				71A858022C5E98A00029C61D /* AsyncImage.swift in Sources */,
+				71A857E82C5E84E30029C61D /* Shaadi_AssignmentApp.swift in Sources */,
+				71A857FB2C5E85880029C61D /* CardView.swift in Sources */,
+				71A858002C5E980E0029C61D /* ImageLoader.swift in Sources */,
+				712D1B192C626B3300A30592 /* Profile+CoreDataClass.swift in Sources */,
+				712D1B1A2C626B3300A30592 /* Profile+CoreDataProperties.swift in Sources */,
+				712D1B0E2C6252F100A30592 /* CoreDataManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		71A857F52C5E84E40029C61D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		71A857F62C5E84E40029C61D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71A857F82C5E84E40029C61D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Shaadi Assignment/Preview Content\"";
+				DEVELOPMENT_TEAM = N8H7D9HU7T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ansh.Shaadi-Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71A857F92C5E84E40029C61D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Shaadi Assignment/Preview Content\"";
+				DEVELOPMENT_TEAM = N8H7D9HU7T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ansh.Shaadi-Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71A857DF2C5E84E30029C61D /* Build configuration list for PBXProject "Shaadi Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71A857F52C5E84E40029C61D /* Debug */,
+				71A857F62C5E84E40029C61D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71A857F72C5E84E40029C61D /* Build configuration list for PBXNativeTarget "Shaadi Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71A857F82C5E84E40029C61D /* Debug */,
+				71A857F92C5E84E40029C61D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		71A857F22C5E84E40029C61D /* Shaadi_Assignment.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				71A857F32C5E84E40029C61D /* Shaadi_Assignment.xcdatamodel */,
+			);
+			currentVersion = 71A857F32C5E84E40029C61D /* Shaadi_Assignment.xcdatamodel */;
+			path = Shaadi_Assignment.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 71A857DC2C5E84E30029C61D /* Project object */;
+}
